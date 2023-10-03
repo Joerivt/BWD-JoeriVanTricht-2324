@@ -3,9 +3,6 @@
    "elements": [
       "html5",
       {
-         "figure": {
-            "permittedDescendants" : ["img", "figcaption"]
-          },
           "b": {
             "deprecated" : true
           },
