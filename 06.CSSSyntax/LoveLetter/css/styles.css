@@ -78,7 +78,6 @@ line-height: 1.4;
 
 mark {
 font-weight:bold;
-text-shadow: 0px 5px 20px red;
 text-transform: uppercase;
 }
 
@@ -99,5 +98,10 @@ p.date {
  /* deel 5: schaduwen */
  
  body {
-    box-shadow: 2px 2px 80px #a8a5b1;
+    box-shadow: 0px 0px 30px #353584;
+    
  }
+
+ mark {
+   text-shadow: 0px 5px 20px red;
+   }
