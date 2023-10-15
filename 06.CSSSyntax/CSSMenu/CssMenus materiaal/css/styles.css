@@ -1,0 +1,56 @@
+#menu-hor-green  {
+    background-color: #abdb4c;
+    display: flex;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 20px;
+}
+
+#menu-hor-green li {
+
+   margin: 10px;
+}
+
+#menu-hor-green a {
+
+   color: grey;
+   text-underline-offset: 0.5em;
+   text-decoration: none; 
+}
+
+#menu-hor-green a:hover {
+text-decoration: underline;
+}
+
+#menu-hor-green .active {
+
+   text-decoration: underline;
+   text-underline-offset: 0.5em;
+}
+#menu-social-vert {
+   border: 0px solid;
+   border-radius: 3px;
+   list-style:none;
+   padding: 2px;
+   text-align: center;
+   width: 40px;
+}
+
+#menu-social-vert li {
+  border-top:none
+}
+#menu-social-vert :hover {
+    color: #abdb4c
+}
+
+#menu-social-vert span{
+    color: #99c63f;
+    display: inline-flex;
+    font-size: 50px;
+    height:70px;
+    line-height: 50px;
+    width: 30px;
+}
+
+
+
