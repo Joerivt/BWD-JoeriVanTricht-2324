@@ -114,6 +114,13 @@ body{
    font-size: 13px;
    line-height: 1.8;
 }
+label {
+   display: none;
+}
+button{
+   background-color: #b52025;
+   color: white;
+}
 
 /* ===========================================
    Footer
