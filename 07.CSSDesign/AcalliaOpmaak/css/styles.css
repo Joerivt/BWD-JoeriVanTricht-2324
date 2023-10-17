@@ -9,10 +9,29 @@
 /* ===========================================
    General
    =========================================== */
+ 
 
 /* html, body and general element styles here */
 /* ... */
+Nav ul{
+   display: flex;
+   font-family: roboto;
+   list-style: none;
+   text-decoration: none;  
+}
 
+nav a{
+   color: black;
+   font-size: 13px;
+   padding: 20px 10PX;
+   text-decoration: none;  
+}
+
+nav a:hover {
+   color:white;
+   background-color: red;
+   transition: 0.8;
+}
 
 /* ===========================================
    Menu
@@ -29,16 +48,72 @@
 
 /* banner styles here */
 /* ... */
+#banner  {
+   background-color: grey;
+   background-image: url(../img/slider_photo2.jpg);
+   background-repeat: no-repeat;
+   border: 5px solid #b52025 ;
 
+}
 
-
+#banner p {
+   background-color: rgba(4, 0, 0, 0.7);
+   color: white;
+   font-size: 14.5px;
+}
+   
 /* ===========================================
    Main
    =========================================== */
 
 /* main styles here */
 /* ... */
+body h3{
+   color: #b52025;
+   font-family: roboto;
+   font-size: 15px;
+   text-transform: uppercase;
+}
 
+h3::after {
+   content: " →";
+}
+
+div{
+   font-family: roboto;
+   font-size: 13px;
+   line-height: 1.8;
+}
+.more a{
+   border: 1px solid #b52025;
+   border-radius:10px ;
+   color: #b52025 ;
+   padding: 5px 10px;
+   text-decoration: none;
+}
+.button{
+  color: #b52025;
+}
+.more{
+   font-weight: bold;
+   margin: 10px;
+   padding: 5px 10px;
+   text-align: right;
+}
+
+.more a::after{
+   color: #b52025;
+   content:" »" ;
+}
+
+body{
+   background-color: rgb(236, 231, 231);
+}
+.newsletter{
+   font-family: roboto;
+   font-size: 13px;
+   line-height: 1.8;
+}
 
 /* ===========================================
    Footer
@@ -46,22 +121,9 @@
 
 /* footer styles here */
 /* ... */
-
-nav li {
-padding: 0px;
-display: flex;
-
+footer p{
+   font-family: roboto;
+   font-size: 13px;
+   text-align: center;
 }
 
-div   {
-   background-image: url(../img/slider_photo2.jpg);
-   background-repeat: no-repeat;
-}
-
-header li{
-   padding: ;
-}
-
-div p{
-   color: white;
-}
