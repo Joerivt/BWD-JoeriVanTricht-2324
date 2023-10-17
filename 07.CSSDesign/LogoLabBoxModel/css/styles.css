@@ -1,0 +1,28 @@
+#topbar li  {
+    padding: 20px;
+  }
+.wrapper {
+    margin-bottom: 40px;
+}
+.wrapper h2 {
+    margin-bottom: 20px;
+}
+.logo p {
+    padding: 10px;
+}
+
+#einstein {
+    margin-bottom: 28px;
+}
+
+#slogan {
+    margin-top: 15px;
+}
+
+#bestelnu{
+    margin-bottom: 20px;
+}
+
+#social li {
+    margin-bottom: 10px;
+}
