@@ -13,26 +13,39 @@
 
 /* html, body and general element styles here */
 /* ... */
-Nav ul{
+html{
+   background-color: #dfdfdf;
+}
+nav ul{
    display: flex;
-   font-family: roboto;
    list-style: none;
    text-decoration: none;  
 }
 
 nav a{
    color: black;
-   font-size: 13px;
-   padding: 20px 10PX;
+   padding: 20px 10px;
    text-decoration: none;  
 }
 
 nav a:hover {
+   background-color: #b52025;
    color:white;
-   background-color: red;
-   transition: 0.8;
+ 
+ 
+}
+nav ul li .active{
+   background-color: #b52025;
+   color:white;
 }
 
+nav ul li a {
+   transition: color 0.3s; 
+}
+
+p{
+   text-align: justify;
+}
 /* ===========================================
    Menu
    =========================================== */
@@ -53,13 +66,12 @@ nav a:hover {
    background-image: url(../img/slider_photo2.jpg);
    background-repeat: no-repeat;
    border: 5px solid #b52025 ;
-
+   box-shadow: 0px 10px 10px gray;
 }
 
 #banner p {
    background-color: rgba(4, 0, 0, 0.7);
    color: white;
-   font-size: 14.5px;
 }
    
 /* ===========================================
@@ -70,8 +82,7 @@ nav a:hover {
 /* ... */
 body h3{
    color: #b52025;
-   font-family: roboto;
-   font-size: 15px;
+   font-weight: normal;
    text-transform: uppercase;
 }
 
@@ -80,19 +91,17 @@ h3::after {
 }
 
 div{
-   font-family: roboto;
-   font-size: 13px;
    line-height: 1.8;
 }
 .more a{
    border: 1px solid #b52025;
-   border-radius:10px ;
+   border-radius:5px ;
    color: #b52025 ;
    padding: 5px 10px;
    text-decoration: none;
 }
 .button{
-  color: #b52025;
+  color: #e2C7C8;
 }
 .more{
    font-weight: bold;
@@ -108,11 +117,15 @@ div{
 
 body{
    background-color: rgb(236, 231, 231);
+   border-radius: 10px 10px 0px 0px;
+   font-family: 'Roboto' sans-serif;
+   font-size: 13px;
 }
 .newsletter{
-   font-family: roboto;
-   font-size: 13px;
    line-height: 1.8;
+}
+input{
+   background-color: #fdeaeb;
 }
 label {
    display: none;
@@ -129,8 +142,11 @@ button{
 /* footer styles here */
 /* ... */
 footer p{
-   font-family: roboto;
-   font-size: 13px;
    text-align: center;
+   
+}
+footer {
+background: rgb(244,251,251);
+background: linear-gradient(0deg, rgba(244,251,251,1) 22%, rgba(161,160,156,0.8856792717086834) 100%);
 }
 
