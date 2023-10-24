@@ -75,32 +75,11 @@ img {
 
 .visual{
     float: left;
-    margin-right: 10px;
-}
-
-.thumb{
-    float: right;
-    
 }
 /* DOORMAT */
 /* ======= */
-#doormat
-{      
-    display: flex;
-    flex-flow: row nowrap;
-}
 
-#doormat section {
-width: 20%;
-}
-
-#doormat section:first-child {
-width: 40%;
-}
 
 /* FOOTER */
-footer{
-    display: flex;
-    justify-content: space-between;
-}
 /* ======= */
+
