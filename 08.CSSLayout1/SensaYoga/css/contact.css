@@ -41,8 +41,9 @@
 }
 
 .wrapper #inpMessage{
-   width: 35%;
    padding: 5%;
+   width: 35%;
+
 }
 #main_top h2 {
    font-weight: bold;

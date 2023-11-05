@@ -10,9 +10,9 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: end;
+    justify-content: space-between;
     list-style: none;
     margin-left:60% ;
-    justify-content: space-between;
     font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ body{
     text-align: center;
     
 }
-#mainmenu a {
+#mainmenu a{
     transition: color 0.3s; 
 }
 

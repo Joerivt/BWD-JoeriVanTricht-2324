@@ -11,8 +11,8 @@
 #banner .wrapper{
    align-items:end;
    display: flex;
-   justify-content: end;
    flex-flow: row nowrap;
+   justify-content: end;
    padding: 3%;
 }
 
