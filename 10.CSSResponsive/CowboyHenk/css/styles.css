@@ -4,31 +4,28 @@
  * @author Rogier van der Linde
  *
  */
-
-
 /* ===========================================
    Reset
    =========================================== */
-
 img {
-   border: 0;
+	border: 0;
+	width: 100%;
 }
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-   
+
 /* ===========================================
    General
    =========================================== */
-
 body {
 	background-color: #f1f1f1;
 	color: #000;
-	font-family: "Raleway", sans-serif;
-	font-size: 15px; 
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
 	line-height: 1.5;
 }
 
@@ -46,24 +43,20 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-img {
-	width: 100%;
-}
+
 
 ul {
 	list-style: none;
 }
 
-
 /* ===========================================
    Header
    =========================================== */
-
 header {
 	padding: 32px 16px;
 }
 
-header > h1 {
+header>h1 {
 	font-size: 36px;
 	font-weight: bold;
 	margin: 10px 0;
@@ -78,24 +71,22 @@ header .inverted {
 
 @keyframes bummer {
 	0% {
-		transform: scale(0,0); 
+		transform: scale(0, 0);
 	}
 }
 
 header p {
+	-webkit-animation: bummer 2s;
+	-webkit-transform: scale(1, 1);
+	animation: bummer 2s;
 	margin: 15px 0;
 	text-align: center;
-	-webkit-animation: bummer 2s;
-	animation: bummer 2s;
-	-webkit-transform: scale(1,1); 
-	transform: scale(1,1);
+	transform: scale(1, 1);
 }
-
 
 /* ===========================================
    Nav
    =========================================== */
-
 nav {
 	padding-bottom: 16px;
 }
@@ -104,7 +95,6 @@ nav ul {
 	justify-content: center;
 	text-align: center;
 }
-
 
 nav li.active {
 	background-color: #ccc;
@@ -120,14 +110,12 @@ nav li a {
 	padding: 8px 16px;
 }
 
-
 /* ===========================================
    Cards
    =========================================== */
-
 .card {
 	background: #fff;
-	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 32px 16px;
 }
 
@@ -142,22 +130,17 @@ nav li a {
 /* ===========================================
    Main
    =========================================== */
-
-main {
-
-}
 #blogentries {
 	width: 800px;
-}   
+}
+
 aside {
 	width: 400px;
 }
 
-
 /* ===========================================
    Blog entries
    =========================================== */
-
 .entry h1 {
 	font-size: 24px;
 	font-weight: bold;
@@ -192,7 +175,7 @@ aside {
 	text-transform: uppercase;
 }
 
-.entry .badge, 
+.entry .badge,
 .entry .tag {
 	background-color: #000;
 	color: #fff;
@@ -212,11 +195,9 @@ aside {
 	padding: 12px 24px;
 }
 
-
 /* ===========================================
    CV
    =========================================== */
-
 .cv h3 {
 	font-size: 20px;
 }
@@ -225,11 +206,9 @@ aside {
 	margin: 15px 0 10px 0;
 }
 
-
 /* ===========================================
    Popular
    =========================================== */
-
 .popular li img {
 	float: left;
 	margin-right: 16px;
@@ -245,11 +224,11 @@ aside {
 	background-color: #ccc;
 }
 
-.popular img + p {
+.popular img+p {
 	font-size: 18px;
 }
 
-.popular h3, 
+.popular h3,
 #tags h3 {
 	background-color: #f1f1f1;
 	font-size: 20px;
@@ -260,7 +239,6 @@ aside {
 /* ===========================================
    Tags
    =========================================== */
-
 #tags ul {
 	margin: 16px;
 }
@@ -269,7 +247,6 @@ aside {
 	background-color: #f1f1f1;
 	display: inline-block;
 	margin-bottom: 16px;
-
 }
 
 #tags li a {
@@ -278,12 +255,9 @@ aside {
 	padding: 0 8px;
 }
 
-
 /* ===========================================
    Footer
    =========================================== */
-
-
 .site_footer {
 	background-color: #616161;
 	color: #fff;
@@ -300,7 +274,7 @@ aside {
 	padding: 32px 16px;
 }
 
-.site_footer .buttons, 
+.site_footer .buttons,
 .site_footer .social {
 	margin: 0;
 	text-align: center;
@@ -309,9 +283,9 @@ aside {
 .site_footer .buttons a {
 	background-color: #000;
 	color: #000;
+	color: #fff;
 	display: inline-block;
 	padding: 12px 24px;
-	color: #fff;
 }
 
 .site_footer .buttons a:hover {
@@ -325,33 +299,53 @@ aside {
 }
 
 .site_footer .social {
-	text-align: right;
 	margin-top: 32px;
+	text-align: right;
 }
 
-.site_footer .social a  {
+.site_footer .social a {
 	font-size: 21px;
 }
 
-.site_footer .social a + a {
+.site_footer .social a+a {
 	padding-left: 15px;
 }
 
-.site_footer .social p + p {
+.site_footer .social p+p {
 	margin-top: 3px;
 }
 
 /* ===========================================
    Media queries
    =========================================== */
-
-   @media  (min-width: 600px) {
-	
-	body {  	
-	  font-size: 10px;
-	
+@media (min-width: 600px) {
+	nav ul {
+		display: flex;
 	}
+
+	main {
+		display: flex;
+	}
+
+	body {
+		font-size: 10px;
+	}
+
 	#blogentries {
-		width: 400px;
-	}   
-  }
+		max-width: 65%;
+	}
+
+	aside {
+		max-width: 35%;
+	}
+}
+
+@media (min-width: 400px) {
+	.site_footer {
+		display: flex;
+	}
+
+	.site_footer .social {
+		text-align: right;
+	}
+}
