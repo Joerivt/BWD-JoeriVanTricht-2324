@@ -1,113 +1,85 @@
 /* ===========================================
    Banner
    =========================================== */
-
 #banner {
    background-image: url(../img/banner.jpg);
    background-size: cover;
    padding: 50px;
 }
-
 #banner .wrapper{
-   align-items:end;
+   align-items:flex-end ;
    display: flex;
    flex-flow: row nowrap;
    justify-content: end;
    padding: 3%;
 }
-
 .banner_box .btn-cta {
    font-size: 18px;
-   padding: 14px 30px;   
-  
+   padding: 14px 30px;
 }
-
 .banner_box .btn-cta:hover {
    color: white;
-}
-   
+}   
 .banner_box p {
    color: white;
    font-size: 30px;
    font-weight: bold;
    margin-bottom: 30px;
 }
-
 /* ===========================================
    Main
-   =========================================== */
-   
+   =========================================== */   
 /* left */
-
 main .wrapper{
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
-
-}
-   
+}   
 .mainleft {
    padding: 30px 15px 0 15px;
 }
-
-
 #gallery {
    display: flex;
    flex-wrap: wrap;
    margin: 35px 0;
 }
-
 #gallery a{
    display: block;
    flex-wrap: wrap;
    margin: 5px;
    width: 23%;
-}
-   
-/* right */
-   
+}   
+/* right */   
 .mainright {
-   align-items: end;
+   align-items:flex-end;
    display: flex;
    flex-flow: column;
    justify-content: space-between;
    padding: 30px 15px 0 15px;
-
 }
-
 .mainright h2{
    margin-right:  56%;
-   
 }
 .mainright h3 a {
-   color: #333;
    border-bottom: 1px solid #cccccc;
-}
-   
+   color: #333;
+}   
 .mainright h3 a:hover {
-   text-decoration: none;
    color: #be0a35;
+   text-decoration: none;
 }
-
 .workshop .date {
-   float: left;
    border: 1px solid rgb(179, 174, 174);
+   float: left;
    margin-right: 10px;
-   width: 25%;
    text-align: center;
-
-
+   width: 25%;
 }
 .workshop .day {
    font-size: 60px;
    line-height: 1em;
    margin: 10px;
-
 }
-
-
-   
-
 .thumb{
    float: right;
    margin-left: 10px;
@@ -116,10 +88,9 @@ main .wrapper{
 .readmore {
    display: block;
    margin-top: 10px;
+}   
+
+.footer{
+   display: flex;
+   
 }
-
-
-
-   
-   
-   

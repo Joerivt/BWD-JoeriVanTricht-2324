@@ -1,50 +1,11 @@
 /* ===========================================
    Main
    =========================================== */
-
 /* top */
-
-
 #main_top {
    padding: 30px 15px 0 15px;
 }
 
-
-.wrapper label {
- display: flex;
- float: left;
- width: 50%;
-}
-
-.wrapper #inpWorkshop{
-   width: 35%;
-   
-}
-.wrapper #inpName{
-   width: 35%;
-}
-
-.wrapper #inpEmail{
-   width: 35%;
-}
-
-.wrapper #inpPhone{
-   width: 35%;
-}
-
-.wrapper #inpDtae{
-   width: 35%;
-}
-
-.wrapper #inpStart{
-   width: 35%;
-}
-
-.wrapper #inpMessage{
-   padding: 5%;
-   width: 35%;
-
-}
 #main_top h2 {
    font-weight: bold;
    text-transform: uppercase;
@@ -57,41 +18,50 @@ address {
    margin-bottom: 20px;
 }
 
-
 /* bottom */
-
 #main_bottom {
    padding: 30px 15px 0 15px;
 }
 
-#bottom_content{
-  display: flex;
+#bottom_content {
+   display: flex;
+   justify-content: space-between;
 }
+
+.bottomleft {
+   width: 45%;
+}
+
+.info__form p {
+   display: flex;
+   justify-content: space-between;
+}
+
 iframe {
    border: none;
    width: 100%;
 }
 
-#social_icons{
-  float: right; 
-  margin-right: -25%;
-  width: 50%;
-  
+#social_icons {
+   display: flex;
+   justify-content: center;
 }
-/* form */
 
+/* form */
 form label {
    font-size: 16px;
    font-style: italic;
+   width: 30%;
 }
 
-form input,
-form select {
+.info__form input,
+select,
+textarea {
    padding: 7px;
+   width: 65%;
 }
 
-.maps.bottomright{
-   width: 50%;
+.maps.bottomright {
    text-align: right;
+   width: 50%;
 }
-

@@ -4,102 +4,84 @@
  * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
  *
  */
-
 /* GENERAL */
 /* ======= */
-
 body {
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
+        margin-left: auto;
+        margin-right: auto;
+       }
 .wrapper{
-    max-width: 960px;
-}
-
+      max-width: 960px;
+     }
 /* HEADER */
 /* ====== */
 header .wrapper{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+     }
 nav ul
 {
-    align-items:flex-start ;
-    display: flex;
-    flex-direction:row column ;
-    flex-wrap: nowrap;
-    float: right;
-    justify-content: flex-start;
-}
+      align-items:flex-start ;
+      display: flex;
+      flex-direction:row ;
+      flex-wrap: nowrap;
+      float: right;
+      justify-content: flex-start;
+     }
 nav li{
-    margin-left: 20px;
-}
-
+      margin-left: 20px;
+     }
 /* MAIN */
 /* ====== */
-img { 
-    max-width: 100%;
-}
-
+img {
+       max-width: 100%;
+      }
 #gallery ul {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+     }
 #gallery li {
-    width: 23%;
-}
-
-
+      width: 23%;
+     }
 /* CONTENT */
 /* ======= */
 #content {
-    align-items: start;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
-
+      align-items: flex-start;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+     }
 .left{
-    width: 65%;
-}
-
+      width: 65%;
+     }
 .right{
-    width: 30%;
-}
-
+      width: 30%;
+     }
 .visual{
-    float: left;
-    margin-right: 10px;
-}
-
+      float: left;
+      margin-right: 10px;
+     }
 .thumb{
-    float: right;
-}
+      float: right;
+     }
 /* DOORMAT */
 /* ======= */
 #doormat .wrapper{
-    display: flex;
-    flex-flow: row nowrap;
-}
-
+      display: flex;
+      flex-flow: row nowrap;
+     }
 #doormat section{
-    width: 20%;
-}
-
+      width: 20%;
+     }
 #doormat section:first-child{
-    width: 40%;
-}
-
+      width: 40%;
+     }
 /* FOOTER */
 /* ======= */
 footer .wrapper{
-    display: flex;
-    justify-content: space-between;
-}
+      display: flex;
+      justify-content: space-between;
+     }

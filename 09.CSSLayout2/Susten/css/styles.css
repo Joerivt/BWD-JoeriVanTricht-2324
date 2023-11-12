@@ -1,80 +1,108 @@
-.wrapper{
+/* reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+/* reset */
+
+body {
+    background-color: white;
+    border-top: 6px solid lightblue;
+    font-family: Varela, sans-serif;
+}
+
+.wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
+    
 }
 
-
-#mainmenu {
-    align-items: end;
+header.wrapper {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: end;
     justify-content: space-between;
-    list-style: none;
-    margin-left:60% ;
-    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    
 }
 
-
-.wrapper li
-
-body{   
-    background-color: white ;
+.wrapper.middle{
+  
 }
 
+.learn.more {
+    color: rgb(64, 123, 195);
+    text-decoration: none;
+    text-transform: capitalize;
+}
 
-#mainmenu a{
+.learn.more::after {
+    content: "⯈";
+    margin-left: 2px;
+}
+
+.mainmenu a {
     border: 2px;
-    color: lightgreen;
+    color: rgb(73, 205, 73);
     float: right;
     font-size: 20px;
     padding: 10px 16px;
-    text-decoration: none;
     text-align: center;
-    
-}
-#mainmenu a{
-    transition: color 0.3s; 
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-#mainmenu a:hover{
-    background-color: lightgreen;
-    color: white   ;
+.mainmenu .active {
+    background-color: rgb(73, 205, 73);
+    color: white;
 }
 
- 
-h1,h3,h4{
-    color: rgb(68, 131, 209);
+
+
+h1, h3, h4 {
+    color: rgb(64, 123, 195);
+    font-family: Manjari, sans-serif;
+    font-weight: light;
 }
- 
-#banner {
+
+.banner {
     background-image: url(../img/header.jpg);
     background-size: cover;
     height: 300px;
     max-width: 100%;
 }
 
-#banner h2, blockquote{
+blockquote {
+    display: flex;
+    justify-content: end;
+}
+
+.banner h2,
+blockquote {
     color: white;
     float: right;
     margin-bottom: 0%;
 }
 
-div .middle  {
-    align-items: start;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+main{
+display: block;
+
 
 }
- 
-.onderaan{
-    align-items: start;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin-top: 80%;
-}
-.people .people{
-    width: 50%;
+
+
+.people {}
+
+.read.letter::after {
+    content: " 🢒 ⯈";
+    margin-left: 2px;
 }
