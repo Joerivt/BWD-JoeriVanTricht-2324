@@ -23,26 +23,45 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
-    
-}
-
-header.wrapper {
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
-    
-}
-
-.wrapper.middle{
   
 }
 
+
+.mainmenu li {
+    display: inline-block;
+    justify-content: space-between;
+   
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+
+
+.wrapper.middle{
+    display: block;
+  
+}
+
+section.middle{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 40px 0px;
+}
+
+section.middle > div {
+    width: calc((100% - (20px * 2)) / 3);
+  }
 .learn.more {
     color: rgb(64, 123, 195);
     text-decoration: none;
     text-transform: capitalize;
+    font-size: 12px;
 }
 
 .learn.more::after {
@@ -66,8 +85,16 @@ header.wrapper {
     color: white;
 }
 
+h1{
+    padding: 3% 0px 3% 0px;
+}
+h3{
+    margin-bottom: 1%;
+}
 
-
+h4{
+    margin-bottom: 4%;
+}
 h1, h3, h4 {
     color: rgb(64, 123, 195);
     font-family: Manjari, sans-serif;
@@ -77,19 +104,24 @@ h1, h3, h4 {
 .banner {
     background-image: url(../img/header.jpg);
     background-size: cover;
-    height: 300px;
+    height: 380px;
     max-width: 100%;
 }
 
+h2{
+    padding: 220px 570px 0px; 
+    font-size: 35px;
+}
 blockquote {
-    display: flex;
-    justify-content: end;
+    padding: 0px 300px 0px 300px;
+   
+   
 }
 
 .banner h2,
 blockquote {
     color: white;
-    float: right;
+   float: right;
     margin-bottom: 0%;
 }
 
@@ -99,10 +131,78 @@ display: block;
 
 }
 
-
+p{
+    font-size: 12px;
+    line-height: 20px;
+}
 .people {}
+
+.read.the.letter{
+    color: rgb(64, 123, 195);
+    text-decoration: none;
+    font-size: 12px;
+}
 
 .read.letter::after {
     content: " 🢒 ⯈";
     margin-left: 2px;
+   
+}
+
+
+div a {
+   
+    text-decoration:underline;
+    font-family: Varela, sans-serif;
+    font-size: 12px;
+    color: rgb(64, 123, 195);
+}
+
+.contactbox{
+   border-style: solid ;
+   border-width: 1px;
+   border-color: rgb(64, 123, 195);
+   background-color: rgb(231, 237, 245);
+   padding: 30px;
+}
+ul{
+    list-style: none;
+
+}
+
+footer {
+    background-color: rgb(58, 57, 57);
+    color: white;
+    padding: 20px;
+  }
+
+ footer a{
+    color: white;
+    word-spacing: 4px;
+    
+ } 
+ footer label{
+    font-size: medium;
+ 
+ }
+
+ footer p{
+    color: gray;
+    font-size: 10px
+ }
+footer ul{
+    display: flex;
+}
+
+.form_email{
+    
+    display: flex;
+    justify-content: space-between;
+    
+ }
+}
+
+
+.form_email{
+    display: flex;
 }
