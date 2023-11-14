@@ -131,12 +131,13 @@ nav li a {
    Main
    =========================================== */
 #blogentries {
-	width: 800px;
+	max-width: 800px;
 }
 
 aside {
-	width: 400px;
+	max-width: 400px;
 }
+
 
 /* ===========================================
    Blog entries
@@ -268,7 +269,7 @@ aside {
 }
 
 .site_footer .wrapper {
-	display: flex;
+
 	justify-content: space-between;
 	margin-top: 16px;
 	padding: 32px 16px;
@@ -300,7 +301,7 @@ aside {
 
 .site_footer .social {
 	margin-top: 32px;
-	text-align: right;
+	
 }
 
 .site_footer .social a {
@@ -340,12 +341,16 @@ aside {
 	}
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 	.site_footer {
 		display: flex;
 	}
 
 	.site_footer .social {
 		text-align: right;
+	}
+
+	.comments{
+		display: none;
 	}
 }
