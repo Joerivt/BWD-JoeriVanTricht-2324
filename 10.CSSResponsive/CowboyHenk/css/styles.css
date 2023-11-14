@@ -194,6 +194,7 @@ aside {
 .entry .comments {
 	font-weight: bold;
 	padding: 12px 24px;
+	display: none;
 }
 
 /* ===========================================
@@ -341,7 +342,7 @@ aside {
 	}
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
 	.site_footer {
 		display: flex;
 	}
@@ -350,7 +351,7 @@ aside {
 		text-align: right;
 	}
 
-	.comments{
-		display: none;
+	.entry .comments{
+		display: block;
 	}
 }
