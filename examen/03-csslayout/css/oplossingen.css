@@ -1,0 +1,53 @@
+/*
+ * Oplossingen oefeningen
+ *
+ */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+nav a {
+    display: flex;
+    justify-content: space- between;
+}
+
+p {
+    line-height: normal;
+}
+
+#main_aside {
+    display: flex;
+    justify-content: end;
+    padding: -100px;
+}
+
+#blogposts {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.blogposts_visual {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogposts_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_wrapper {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.button {
+    float: right;
+}

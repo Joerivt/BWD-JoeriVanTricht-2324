@@ -1,0 +1,381 @@
+/*
+ * Main styles
+ *
+ * @author Rogier van der Linde <rogier@bitmatters.be>
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* elements */ 
+
+* {
+   margin: 0; 
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+body, form, input, textarea {
+   color: #777;
+   font-family: Lato, Verdana, sans-serif;
+}
+
+a:hover,
+a:focus {
+   text-decoration: underline;
+}
+
+a {
+   color: #006;
+   text-decoration: none;
+}
+
+blockquote {
+   font-style: italic;
+}
+
+fieldset {
+   border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: #201e23;
+   font-family: Poppins, sans-serif;
+   font-weight: 600;
+   margin-bottom: 15px;
+   margin-top: 0;
+}
+
+h1 {
+   font-size: 30px;
+}
+
+h3 {
+   font-size: 18px;
+}
+
+img {
+   max-width: 100%;
+}
+
+p {
+   line-height: 1.7;
+}
+
+ul {
+   list-style: none;
+}
+
+/* classes */ 
+  
+.wrapper {
+   padding: 60px 15px;
+}
+
+.button {
+   background-color: #cf2649;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: bold;
+   padding: 0.7em 1.3em;
+   text-decoration: none;
+}
+
+/* ===========================================
+   Header
+   =========================================== */
+
+/* general */ 
+
+header {
+   background-color: #fff;
+   border-bottom: 2px solid #cf2649;
+}
+
+header .wrapper {
+   padding: 15px;
+   padding-left: 0;
+}
+
+/* logo */
+
+#logo {
+   width: 250px;
+}
+
+/* menu */ 
+
+nav a {
+   color: #333;
+   display: block;
+   text-decoration: none;
+   padding: 5px 12px;
+}
+
+nav a:hover,
+nav .active a {
+   background-color: #cf2649;
+   color: #fff;
+}
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+#banner {
+   background-color: #eaeaea;
+}
+      
+.banner__slogan {
+   color: #cf2649;
+}
+   
+/* ===========================================
+   Main
+   =========================================== */
+
+/* blog */
+
+#blogposts {
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+   
+#main_aside {
+   font-size: smaller;
+}
+   
+/* blogpost */
+   
+.blogpost {
+   margin-bottom: 60px;
+}
+   
+/* ===========================================
+   Aside
+   =========================================== */
+   
+/* general */
+   
+#main_aside h2 {
+   margin-top: 30px;
+}
+   
+.arrowlist li::before {
+   color: #cf2649;
+   content: "›";
+   font-size: 20px;
+   font-weight: bold;
+   margin-right: 15px;
+}
+   
+#main_aside li {
+   margin-bottom: 5px;
+}
+   
+/* ===========================================
+   Appointment
+   =========================================== */
+
+#main_appointment {
+   background-color: #eee; 
+}
+   
+#main_appointment form {
+   margin-top: 15px;
+} 
+
+#main_appointment label {
+   display: block;
+   margin: 10px 0;
+}
+
+#main_appointment input, 
+#main_appointment select, 
+#main_appointment textarea {
+   border: 2px solid #e8e8e8;
+   border-radius: 5px;
+   color: #747579;   
+   margin-bottom: 1.5rem;
+   padding: 10px;
+   width: 100%;
+}
+
+::placeholder {
+   color: #b2b2b4;   
+}
+
+textarea {
+   resize: vertical;
+}
+   
+/* ===========================================
+   Hours
+   =========================================== */
+   
+#main_hours {
+   background-color: #28293a;
+   color: #fff;
+}
+      
+#main_hours .wrapper {
+   padding-bottom: 0;
+   padding-top: 0;
+}
+      
+#main_hours .left {
+   color: #fff;
+   padding: 100px 0;
+}
+      
+#main_hours h2 {
+   color: #fff;
+   font-size: 45px;
+   font-weight: 700;
+   line-height: 45px;
+   margin-bottom: 20px;
+}
+      
+#main_hours .right {
+   background-color: #cf2649;
+}
+      
+#main_hours h3 {
+   border-bottom: 1px solid #e5566a;   
+   color: #fff;
+   font-size: 28px;
+   padding: 40px;
+}
+      
+#main_hours dt {
+   font-size: 16px;
+   font-weight: 700;
+   text-transform: uppercase;   
+}
+      
+#main_hours dd {
+   color: #d6d6d6;
+   margin-bottom: 30px;
+   margin-top: 10px;
+}
+
+#main_hours .button {
+   margin-top: 30px;
+}
+      
+/* ===========================================
+   Team
+   =========================================== */
+      
+#main_team .wrapper {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+      
+#main_team .subtitle {
+   padding: 20px;
+}
+      
+#team {
+   margin-top: 40px;
+}
+      
+.member .name {
+   font-size: 20px;   
+}
+      
+.member .roles {
+   color: #e5566a;
+   font-size: 14px;   
+}
+      
+.member .social {
+   margin-top: 20px;
+   width: 100%;
+}
+      
+.member .social li {
+   padding: 5px;
+}
+      
+.member .social a {
+   color: #fff;
+}
+      
+.member .facebook {
+   background-color: #195999;
+}
+      
+.member .twitter {
+   background-color: #1cacff;
+}
+      
+.member .googleplus {
+   background-color: #de421c;
+}
+      
+.member .linkedin {
+   background-color: #198eaf;
+}
+
+/* ===========================================
+   Doormat
+   =========================================== */
+   
+#doormat {
+   background-color: #323343;
+   color: #fff;
+   overflow: hidden;
+}
+   
+#doormat h2 {
+   color: #fff;
+   font-size: 20px;
+}
+   
+#doormat p {
+   margin-bottom: 20px;
+}
+   
+.card {
+   background-color: white;
+   border-bottom: 5px solid #cf2649;
+   color: #333;
+   font-size: smaller;
+   width: 400px;
+   padding: 20px;
+   padding-bottom: 0;
+}
+   
+.card .button {
+   font-size: 12px;
+   height: inherit;
+   line-height: inherit;
+   min-width: auto;
+   padding: 3px 15px;
+}
+   
+.card__picture {
+   width: 20%;
+}
+      
+/* ===========================================
+   Footer
+   =========================================== */
+
+footer {
+   background-color: #cf2649;
+   color: #fff;
+   font-size: 12px;
+}
+
+.footer_wrapper {
+   padding: 15px;
+}
+   
+footer a {
+   color: #fff;
+}

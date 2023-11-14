@@ -1,0 +1,64 @@
+/**
+ * Oplossingen
+ *
+ * @author Rogier van der Linde
+ *
+ */
+.active {
+    color: red;
+}
+
+#banner {
+    background-image: url(../img/laptop.jpg);
+}
+
+.banner_text {
+    background-color: rgb(231, 217, 217);
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    margin: 30;
+    padding: 30px;
+}
+
+h1 {
+    background-color: rgb(176, 78, 78);
+    color: white;
+}
+
+h2 {
+    color: rgb(176, 78, 78);
+    text-decoration: dotted;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+}
+
+.button.readmore {
+    border-style: solid;
+}
+
+.button.readmore::after {
+    content: ">>";
+}
+
+a {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+a:hover,
+a:focus {
+    color: rgb(176, 78, 78);
+}
+
+.button {
+    background-color: rgb(176, 78, 78);
+    color: white;
+}
+
+#form_search {
+    border: 2px solid red;
+}
